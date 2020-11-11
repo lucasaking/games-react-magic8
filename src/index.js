@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EightBall from './Eightball.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App { ...EightBall }/>
   </React.StrictMode>,
   document.getElementById('root')
 );
